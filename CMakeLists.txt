@@ -3,6 +3,11 @@ project(c_develop)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(c_develop main.cpp)
+# C基础
+add_subdirectory(base-01)
 
-add_subdirectory(ch01-helloworld)
+# C++基础
+add_subdirectory(base-02)
+
+# 数据结构+算法
+add_subdirectory(base-03)
