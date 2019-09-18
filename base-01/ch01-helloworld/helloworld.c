@@ -3,7 +3,14 @@
 //
 #include "stdio.h"
 
+void test();
+
 int main() {
-    printf("hello world!");
+    printf("hello world!\n");
+    test();
     return 0;
+}
+
+void test() {
+    printf("test");
 }
