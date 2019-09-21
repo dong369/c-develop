@@ -1,0 +1,1 @@
+add_executable(ch02-linked ch02-linked/linked.cpp)
